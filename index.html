@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Fylo landing page with two column layout</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      :root {
+        --primary-very-dark-blue: hsl(243, 87%, 12%);
+        --primary-desaturated-blue: hsl(238, 22%, 44%);
+        --accent-bright-blue: hsl(224, 93%, 58%);
+        --accent-moderate-cyan: hsl(170, 45%, 43%);
+        --neutral-light-grayish-blue: hsl(240, 75%, 98%);
+        --neutral-light-gray: hsl(0, 0%, 75%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* font-family: 'Raleway', sans-serif; */
+
+      body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        color: var(--primary-very-dark-blue);
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .logo {
+        width: 5rem;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+        margin-bottom: 5rem;
+      }
+
+      .nav_link {
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        color: var(--primary-very-dark-blue);
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      main {
+        padding: 0 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="logo" src="./images/logo.svg" alt="" />
+        <nav>
+          <a class="nav_link">Features</a>
+          <a class="nav_link">Team</a>
+          <a class="nav_link">Sign In</a>
+        </nav>
+      </header>
+      <main>
+        <img style="width: calc(100% - 2.5rem); margin: 0 auto 2.5rem auto;display: block;" src="./images/illustration-1.svg" alt="" />
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers.
+        </p>
+        <form>
+          <input type="email" />
+          <button>Get Started</button>
+        </form>
+        <img src="./images/illustration-2.svg" alt="" />
+        <h2>Stay productive, wherever you are</h2>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
+        </p>
+
+        <a>See how Fylo works</a>
+        <div>
+          Fylo has improved our team productivity by an order of magnitude.
+          Since making the switch our team has become a well-oiled collaboration
+          machine. Kyle Burton Founder & CEO, Huddle
+        </div>
+        <section>
+          Get early access today It only takes a minute to sign up and our free
+          starter tier is extremely generous. If you have any questions, our
+          support team would be happy to help you.
+          <form>
+            <input type="email" />
+            <button>Get Started For Free</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog Contact
+        Us Terms Privacy
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Elio Flores</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
